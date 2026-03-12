@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Children of Christ logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f4b99"/>
+      <stop offset="1" stop-color="#2e8b57"/>
+    </linearGradient>
+  </defs>
+  <circle cx="110" cy="110" r="102" fill="#fff" stroke="url(#g)" stroke-width="10"/>
+  <path d="M110 46v48" stroke="#1f4b99" stroke-width="10" stroke-linecap="round"/>
+  <path d="M86 70h48" stroke="#1f4b99" stroke-width="10" stroke-linecap="round"/>
+  <path d="M48 142c18-24 40-36 62-36s44 12 62 36" fill="none" stroke="#2e8b57" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="76" cy="124" r="12" fill="#4c7bd2"/>
+  <circle cx="110" cy="120" r="14" fill="#1f4b99"/>
+  <circle cx="144" cy="124" r="12" fill="#4c7bd2"/>
+</svg>
