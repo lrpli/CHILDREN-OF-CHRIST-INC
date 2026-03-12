@@ -6,10 +6,10 @@ if (copyEmailBtn) {
   copyEmailBtn.addEventListener('click', async () => {
     const status = document.getElementById('statusMessage');
     try {
-      await navigator.clipboard.writeText('info@cswc.us');
-      if (status) status.textContent = 'Email copied: info@cswc.us';
+      await navigator.clipboard.writeText('info@gloriadeo.us');
+      if (status) status.textContent = 'Email copied: info@gloriadeo.us';
     } catch {
-      if (status) status.textContent = 'Copy failed. Please copy manually: info@cswc.us';
+      if (status) status.textContent = 'Copy failed. Please copy manually: info@gloriadeo.us';
     }
   });
 }
@@ -30,7 +30,7 @@ if (contactForm) {
 
     const subject = encodeURIComponent(`Website inquiry - ${name}`);
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
-    window.location.href = `mailto:info@cswc.us?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:info@gloriadeo.us?subject=${subject}&body=${body}`;
     if (status) status.textContent = 'Opening your mail app with a pre-filled draft.';
     contactForm.reset();
   });
